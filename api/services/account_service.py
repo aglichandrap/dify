@@ -36,13 +36,6 @@ from models.account import (
 )
 from models.model import DifySetup
 from services.billing_service import BillingService
-from services.entities.auth_entities import (
-    ChangeEmailNewEmailToken,
-    ChangeEmailOldEmailToken,
-    ChangeEmailPhase,
-    ChangeEmailTokenData,
-)
-
 from services.enterprise.rbac_service import ListOption, RBACService
 from services.errors.account import (
     AccountAlreadyInTenantError,
